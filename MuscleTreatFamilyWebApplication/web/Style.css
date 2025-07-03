@@ -7,6 +7,7 @@
   
 
 body{
+
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -18,22 +19,51 @@ body{
 height: 200px;
  width: auto;
  background-color: rgb(178, 172, 136);
+
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+.image{
+height: 7px;
+ height: 200px;
+
 }
 h1{
 padding-inline-end: 6rem;
 }
+
 .middle-section{
+.smiddle{
+
     height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
   background-color: rgb(205, 199, 190);
   color: white;
 }
 
 
 
+=======
+  background-color: rgb(255, 255, 255);
+}
+
+.button{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button button {
+ 
+  font-size: xx-large;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid #999;
+  background-color: white;
+}
 .about{
     display: block;
     background-color: rgb(255, 255, 255);
@@ -53,8 +83,12 @@ header{
 display: flex;
 justify-content: space-between;
 align-items: center;
+
 padding: 15px 30px;
 background-color:rgb(178, 172, 136) ;
+=======
+padding: 1rem 5rem;
+
 }
 header h1{
 
@@ -321,6 +355,8 @@ padding-left: 20px;
 #have-questions{
   font-size: 20px;
   padding-left: 20px;
+    color: antiquewhite;
+
 }
 
 
